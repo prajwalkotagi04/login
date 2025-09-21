@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Form</title>
+    <title>Register Form</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body{
+        body {
             background-image: url('./Assets/bg_register.jpg');
             object-fit: fill;
             background-repeat: no-repeat;
@@ -14,16 +15,23 @@
         }
     </style>
 </head>
+
 <body class=" flex items-center justify-center min-h-screen">
     <div class="shadow-lg bg-white w-full max-w-md p-8 rounded-lg">
         <h2 class="text-2xl font-bold mb-6 text-center">Register</h2>
-        <form action="" method="post" class="flex flex-col gap-4">
-            <input type="text" name="name" placeholder="Enter your name" class="border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-400">
-            <input type="email" name="email" placeholder="Enter your email" class="border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-400">
-                        <input type="number" name="number" placeholder="Enter your Phone number" class="border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-400">
-            <input type="password" name="password" placeholder="Enter your password" class="border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-400">
-            <button type="submit" class="bg-blue-500 text-white rounded-lg p-3 hover:bg-blue-600 transition">Submit</button>
+        <form action="db.php" method="post" class="flex flex-col gap-4">
+            <input type="text" name="name" placeholder="Enter your name"
+                class="border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-400">
+            <input type="email" name="email" placeholder="Enter your email"
+                class="border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-400">
+            <input type="number" name="phone" placeholder="Enter your Phone number"
+                class="border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-400">
+            <input type="password" name="password" placeholder="Enter your password"
+                class="border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-400">
+            <button type="submit"
+                class="bg-blue-500 text-white rounded-lg p-3 hover:bg-blue-600 transition">Submit</button>
         </form>
     </div>
 </body>
+
 </html>
