@@ -1,5 +1,5 @@
 <?php
-    include "topnav.php"; // includes your top navigation bar
+    include "topnav.php"; 
 ?>
 <div class="shadow-lg w-[20%] max-w-md min-h-screen fixed left-0 top-0 bg-blue-500 text-white">
     <nav class="flex flex-col">
